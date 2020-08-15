@@ -19,7 +19,8 @@ header h1 {
    font-weight: bold;
    font-size: 36px;
    color: #fce138;
-   margin
+   margin: 0;
+   display: inline;
 }
 
 header a {
@@ -62,10 +63,11 @@ footer a {
 }
 /* hero style start*/
 .hero {
-  background-image: url("../images/hero-bg.jpg");
+  background-image: url("../images/hero-bg.jpg.jpg");
   height: 600px;
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
   position: relative;
 }
 
